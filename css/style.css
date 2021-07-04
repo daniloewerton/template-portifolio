@@ -1,0 +1,251 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 100%;
+}
+
+/* cabeçalho */
+
+.header-buttom {
+    display: none;
+}
+
+.buttom {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding: .80rem 1.50rem;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    background: #002A54;
+}
+
+.buttom:hover {
+    background: rgba(0, 42, 84, .9);
+}
+
+.header-box {
+    display: flex;
+    height: 15.625rem;
+    background: #000;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-box .nome {
+    padding: 1.25rem;
+    font-size: 3.125rem;
+    color: #50d9ff;
+}
+
+.header-box .hello {
+    color: white;
+    font-size: 1.375rem;
+}
+
+.header-box .profissao {
+    color: white;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    margin-top: 1.875rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-menu .header-menu-buttom {
+    width: 95%;
+    cursor: pointer;
+    margin: .9375rem;
+    padding: .625rem;
+    list-style: none;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.header-menu .header-menu-buttom:active {
+    border: 1px solid #50d9ff;
+}
+
+.header-menu .header-menu-buttom a {
+    color:black;
+    font-size: 1.875rem;
+    text-decoration: none;
+}
+
+.projetos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Títulos */
+
+.titulo {
+    color: #333333;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.1875rem;
+    margin: 1.875rem 0;
+}
+
+.titulo::after {
+    content: "";
+    width: 6.25rem;
+    height: .1875rem;
+    display: block;
+    background: #333333;
+    margin: .625rem auto;
+}
+
+/* Conteúdo principal */
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre p {
+    padding: 0 1.25rem;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.cards-projetos {
+    width: auto;
+    height: auto;
+    display: grid;
+    padding: 0 1rem;
+    grid-template-areas: 
+        "test-card";
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+}
+
+.habilidades {
+    background-color: #bcdbf6;
+    height: 28.125rem;
+}
+
+/* Teste de criação de cards */
+
+.test-card {
+    width: 100%;
+    height: 18.75rem;
+    display: flex;
+    background: #50d9ff;
+    flex-direction: column;
+    border-radius: .3125rem;
+    justify-content: flex-end;
+    margin: .625rem 0 .3125rem 0;
+}
+
+.test-card:nth-child(1) {
+    background-image: url(../imagens/projeto1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.test-card-text {
+    border-radius: 5px;
+    background: #303030;
+    height: 30%;
+    color: white;
+    padding: .3125rem;
+}
+
+.test-card-text p {
+    padding-top: .9375rem;
+    font-size: .75rem;
+    text-align: justify;
+}
+
+.projeto1-img {
+    border-radius: 5px;
+}
+
+/* Fim de teste de criação de cards */
+
+.card-1, .card-2, .card-3 {
+    padding-bottom: 1.25rem;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contato_itens {
+    width: 80%;
+}
+
+fieldset {
+    width: 100%;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario label {
+    display: none;
+}
+
+.formulario input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.formulario-itens {
+    width: 100%;
+    margin: .625rem 0;
+    border: none;
+    padding: .625rem;
+    font-size: 1.125rem;
+    border-radius: .3125rem;
+    background: #cccccc;
+}
+
+.buttom-place {
+    width: 100%;
+}
+
+.form-buttom {
+    background:#002A54;
+}
+
+.footer {
+    display: flex;
+    height: 8rem;
+    align-items: center;
+    margin-top: 3.125rem;
+    background: #32363a;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icones {
+    margin-bottom: 1rem;
+}
+
+.icones__item {
+    font-size: 2rem;
+    margin-right: 1.5rem;
+}
+
+.icones__item:last-child {
+    margin: 0;
+}
+
+.footer p, a {
+    color: white;
+    text-align: justify;
+}
