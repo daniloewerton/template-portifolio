@@ -1,6 +1,6 @@
 @media screen and (min-width: 48rem) and (max-width: 63.9375rem) {
     .header {
-        background: white url(../imagens/header-img2.jpg);
+        background: url(../imagens/header-img2.jpg);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -16,10 +16,6 @@
 
     .header-box {
         background: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         flex-grow: 1;
     }
 
@@ -92,7 +88,7 @@
 
 @media screen and (min-width: 64rem) {
     .header {
-        background: white url(../imagens/header-img2.jpg);
+        background: url(../imagens/header-img2.jpg);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -104,10 +100,6 @@
 
     .header-box {
         background: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         flex-grow: 1;
     }
 

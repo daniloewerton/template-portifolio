@@ -9,10 +9,16 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/spinner.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="spinner_field">
+        <div class="spinner">
+        </div>
+    </div>
+
     <header class="header">
 
         <div class="header-box">
@@ -113,7 +119,7 @@
             
             <div class="contato_itens">
                 <fieldset>
-                    <form class="formulario">
+                    <form class="formulario" method="post" value="">
         
                         <label>Nome</label>
                         <input  class="formulario-itens" type="text" name="nome" id="1" required placeholder="Nome">
@@ -132,11 +138,9 @@
                         </div>
                     </form>
                 </fieldset>
-        
                 <div class="contato_img"></div>
             </div>
         </section>
-
         <footer class="footer">
             <div class="icones">
                 <a class="icones__item" href="https://www.instagram.com/danilo.ewerton/" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -144,8 +148,9 @@
                 <a class="icones__item" href="https://www.facebook.com/daniloewerton" target="_blank"><i class="fab fa-facebook-square"></i></a>
                 <a class="icones__item" href="https://www.linkedin.com/in/danilo-ewerton-pereira-freire-2712b115b/" target="_blank"><i class="fab fa-linkedin"></i></a>
             </div>
-            <p>Todos os direitos reservados &copy; - Desenvolvido por <a href="https://www.linkedin.com/in/danilo-ewerton-pereira-freire-2712b115b/" target="_blank"><strong>Danilo Ewerton 2021</strong></a></p>
+            <p>Todos os direitos reservados &copy; - Desenvolvido por <a class="" href="https://www.linkedin.com/in/danilo-ewerton-pereira-freire-2712b115b/" target="_blank"><strong>Danilo Ewerton 2021</strong></a></p>
         </footer>
     </main>
+    <script src="script/script.js"></script>
 </body>
 </html>
