@@ -111,8 +111,8 @@ body {
     flex-direction: column;
 }
 
-.sobre p {
-    padding: 0 1.25rem;
+.principal p {
+    padding: 0 1.875rem 1.25rem;
     text-align: justify;
     line-height: 1.5;
 }
@@ -130,7 +130,7 @@ body {
 
 .habilidades {
     background-color: #bcdbf6;
-    height: 28.125rem;
+    height: auto;
 }
 
 /* Teste de criação de cards */

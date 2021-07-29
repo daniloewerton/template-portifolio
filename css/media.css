@@ -112,7 +112,7 @@
         margin: 0;
         height: 3.125rem;
         flex-direction: row;
-        justify-content:flex-end;
+        justify-content: flex-end;
         background: rgba(0, 42, 84, .8);
     }
 
@@ -127,7 +127,6 @@
         color: white;
         font-weight: bold;
         font-size: 1.5625rem;
-        transition: all 1s linear;
     }
 
     .header-menu .header-menu-buttom:active {
@@ -136,7 +135,6 @@
 
     .header-menu a:hover {
         border-bottom: 2px solid white;
-        
     }
 
     .projetos {
