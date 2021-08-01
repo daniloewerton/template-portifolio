@@ -111,7 +111,7 @@ body {
     flex-direction: column;
 }
 
-.principal p {
+.principal .principal-descricao {
     padding: 0 1.875rem 1.25rem;
     text-align: justify;
     line-height: 1.5;
