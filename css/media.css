@@ -60,17 +60,17 @@
     .cards-projetos {
         display: grid;
         grid-template-areas: 
-        "test-card";
+        "card";
         grid-gap: .5rem;
         grid-template-columns: calc(33.33% - .5rem) calc(33.33% - .5rem) calc(33.33%);
         grid-template-rows: auto;
     }
 
-    .test-card {
+    .card {
         margin: 0;
     }
 
-    .test-card:nth-child(7), .test-card:nth-child(8) {
+    .card:nth-child(7), .card:nth-child(8) {
         display: none;
     }
 
@@ -149,7 +149,7 @@
         padding: 0;
     }
 
-    .test-card {
+    .card {
         margin: 0;
     }
 
